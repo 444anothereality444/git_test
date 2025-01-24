@@ -1,0 +1,74 @@
+body {
+    font-family: Hack;
+    background-color: #000000;
+    color: #b2a291;
+}
+
+li {
+    color: pink;
+    margin-left: 100px;
+}
+
+a {
+    color: purple;
+}
+
+h2 {
+    color: orange;
+}
+
+h1 {
+    color: orange;
+}
+
+p {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+a:hover {
+  color: orange; 
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("stalcode.png");
+  min-height: 240px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 0px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  list-style-type: none;
+}
+
+.topnav a:hover {
+  color: orange;
+}
+
